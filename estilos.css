@@ -1,0 +1,44 @@
+
+body{
+    background-color:rgb(251,51,51);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+.datos{ 
+    font-size: 34px;
+    font-family: 'Nunito', sans-serif;
+
+}
+img{ align-items: left;
+    float: left;
+
+
+}
+header{
+    background-color: white;
+    height: 35px;
+    width: 1365px;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    line-height: normal;
+}
+.menu{
+    float: right;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+
+}
+.tit{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mail{
+    text-align: center;
+
+}
