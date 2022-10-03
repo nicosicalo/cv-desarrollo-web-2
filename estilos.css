@@ -3,6 +3,7 @@ body{
     background-color:rgb(251,51,51);
     font-family: 'Times New Roman', Times, serif;
     margin: 0px;
+    background-color:#FA7070;
 }
 .datos{ 
     font-size: 34px;
@@ -11,6 +12,9 @@ body{
 }
 img{ align-items: left;
     float: left;
+    margin-left: 24px;
+    box-shadow: 2px, 4px;
+    
 
 
 }
@@ -35,7 +39,7 @@ a:hover{
 }
 .tit{
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
 .article{
@@ -51,12 +55,37 @@ a:hover{
     list-style: none;
 }
 
-.h2c{
-    
+.mail{
+    display:inline-block;margin-right:10px;
+    font-family: 'Barlow', sans-serif;
+}
+.fa-solid .fa-envelopes-bulk{
+    font-weight: 1000px;  
+    display:inline-block;margin-right:10px;
 }
 span{
     text-decoration: underline;
-}
-.mail{
     
+    
+}
+.pie{
+    background-color: white;
+    text-align: end;
+}
+.menu2{
+    font-family: 'Barlow', sans-serif;
+}
+.h2c{
+    font-family: 'Barlow', sans-serif;
+}
+#alva{
+    text-align: center;
+}
+.alvaw{
+display:block;
+margin: auto;
+}
+.fce{
+    color: black;
+    text-decoration: underline;
 }
