@@ -6,17 +6,14 @@ body{
     background-color:#FA7070;
 }
 .datos{ 
-    font-size: 34px;
+    font-size: 36px;
     font-family: 'Nunito', sans-serif;
-
+    color: #141414;
 }
 img{ align-items: left;
     float: left;
     margin-left: 24px;
     box-shadow: 2px, 4px;
-    
-
-
 }
 li>a{
     text-decoration: none;
@@ -43,7 +40,8 @@ a:hover{
 }
 
 .article{
-    margin-top: 20px;
+    margin-top: 0px;
+   
     
 }
 .ulc{
@@ -58,6 +56,7 @@ a:hover{
 .mail{
     display:inline-block;margin-right:10px;
     font-family: 'Barlow', sans-serif;
+    font-size: 22px;
 }
 .fa-solid .fa-envelopes-bulk{
     font-weight: 1000px;  
@@ -77,15 +76,32 @@ span{
 }
 .h2c{
     font-family: 'Barlow', sans-serif;
+    font-size: 28px;
 }
 #alva{
-    text-align: center;
+   text-align: center;
+   font-size: 30px;
+   
 }
-.alvaw{
-display:block;
-margin: auto;
-}
+
 .fce{
     color: black;
     text-decoration: underline;
+}
+.foto{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding-top:10px;
+  padding-bottom:0px
+}
+.trabajo>h2{
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;;
+}
+.trabajo>ul{
+    font-size: 25px;
+    font-family:'Montserrat', sans-serif;;
 }
