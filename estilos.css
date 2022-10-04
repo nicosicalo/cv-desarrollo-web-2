@@ -28,7 +28,6 @@ header{
     text-align: center;
     line-height: normal;
 }
-
 a:hover{
     color: white;
     text-decoration: none;
@@ -41,8 +40,7 @@ a:hover{
 
 .article{
     margin-top: 0px;
-   
-    
+   text-align: center;
 }
 .ulc{
     justify-content: flex-end;
@@ -52,7 +50,6 @@ a:hover{
     padding: 1%;
     list-style: none;
 }
-
 .mail{
     display:inline-block;margin-right:10px;
     font-family: 'Barlow', sans-serif;
@@ -64,8 +61,6 @@ a:hover{
 }
 span{
     text-decoration: underline;
-    
-    
 }
 .pie{
     background-color: white;
@@ -81,7 +76,6 @@ span{
 #alva{
    text-align: center;
    font-size: 30px;
-   
 }
 
 .fce{
@@ -104,4 +98,18 @@ span{
 .trabajo>ul{
     font-size: 25px;
     font-family:'Montserrat', sans-serif;;
+}
+@media screen and (max-width:1024px) and (min-width:800px){
+    
+}
+@media screen and (max-width:800px) and (min-width:480px){
+    .datos{
+        font-size: 20px; 
+    }
+ .carnet{
+    width: 70px;
+    margin-top: 20px;
+}
+}
+@media screen and (max-width:480px){
 }
