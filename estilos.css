@@ -105,7 +105,7 @@ span{
     }
     .ulc{
         display: flex;
-        justify-content: end;
+        justify-content: center;
     }
 }
 @media screen and (max-width:800px) and (min-width:480px){
@@ -120,10 +120,17 @@ span{
     justify-content: center;
 }
 }
-@media screen and (max-width:480px){
-    }
-
- 
+@media screen and (max-width:480px){.ulc{
+    display: flex;
+    justify-content: center;
+}
+.datos{
+    font-size: 45px; 
+    margin-left: 15px;
+}
+.carnet{
+    width: 200px;
+}
+}
     
-
 
