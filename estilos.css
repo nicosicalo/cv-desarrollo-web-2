@@ -6,7 +6,7 @@ body{
     background-color:#FA7070;
 }
 hr{
-    width: 102%;
+    width: 100%;
 }
 .datos{ 
     font-size: 36px;
@@ -31,6 +31,25 @@ header{
     text-align: center;
     line-height: normal;
 }
+.exp{
+        background-color: white;
+        height: 35px;
+        width: 1365px;
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+        line-height: normal;
+    }
+
+.prin{
+    background-color: white;
+    height: 35px;
+    width: 1365px;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    line-height: normal;
+}
 a:hover{
     color: white;
     text-decoration: none;
@@ -45,6 +64,15 @@ a:hover{
     margin-top: 0px;
    text-align: center;
 }
+.ulcd{
+    justify-content: flex-end;
+    display: flex;
+    gap: 20px;
+    margin: 1%;
+    padding: 1%;
+    list-style: none;
+}
+
 .ulc{
     justify-content: flex-end;
     display: flex;
@@ -53,6 +81,7 @@ a:hover{
     padding: 1%;
     list-style: none;
 }
+
 .mail{
     display:inline-block;margin-right:10px;
     font-family: 'Barlow', sans-serif;
@@ -68,7 +97,7 @@ span{
 .pie{
     background-color: white;
     text-align: end;
-    width: 102%;
+    width: 100%;
 }
 .menu2{
     font-family: 'Barlow', sans-serif;
@@ -104,7 +133,7 @@ span{
     font-family:'Montserrat', sans-serif;;
 }
 header{
-    width: 102%;
+    width: 100%;
 }
 @media screen and (max-width:1024px) and (min-width:800px){
     .carnet{
@@ -112,17 +141,36 @@ header{
     }
     .ulc{
         display: flex;
-        justify-content: right;
+        justify-content: end;
     }
     hr{
-        width: 135%;
+        width: 100%;
     }
     .pie{
-        width: 135%;
+        width: 100%;
     }
     .datos{
-        font-size: 45px;
+        font-size: 60px;
     }
+    header{
+        width: 100% ;
+    }
+    .prin{
+        width: 100%;
+    }
+    .exp{
+        width: 100%;
+    }
+    .trabajo>h2{
+    font-size: 40px;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;;
+}
+.trabajo>ul{
+    font-size: 30px;
+    font-family:'Montserrat', sans-serif;;
+    margin-left: 60px;
+}
 }
 @media screen and (max-width:800px) and (min-width:480px){
     .datos{
@@ -136,24 +184,69 @@ header{
    
 }
 hr{
-    width: 280%;
+    width: 200%;
 }
-.ulc{
+.ulcd{
     display: flex;
-    justify-content: end;
+    justify-content: left;
+    font-size: 50px;
 }
 .pie{
-    width: 280%;
+    width: 200%;
     height: 40px;
     font-size: 30px;
 }
 header{
     height: 70px;
     font-size: 30px;
-    width: 280%;
+    width: 200%;
+    margin-left: 0%;
 }
+#alva{
+    justify-content: center;
+    margin-left: 80%;
+    font-size: 60px;
 }
-@media screen and (max-width:480px){.ulc{
+.prin{
+    width: 200%;
+    height: 60px;
+
+}
+.trabajo>h2{
+    font-size: 80px;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;;
+}
+.trabajo>ul{
+    font-size: 60px;
+    font-family:'Montserrat', sans-serif;;
+    margin-left: 60px;
+}
+.ulc{
+    display: flex;
+    justify-content: end;
+}
+.exp{
+    height: 70px;
+    font-size: 30px;
+    width: 200%;
+    margin-left: 0%;
+}
+.article{
+    font-size: 100px;
+    margin-left: 50%;
+}
+.h2c{
+    font-size: 100px;
+}
+.mail{
+    font-size: 70px;
+}
+
+}
+    
+@media screen and (max-width:480px){    
+    .ulc{
     display: flex;
     justify-content: end;
 }
@@ -167,18 +260,70 @@ header{
 }
 .pie{
     width: 330%;
-    font-size: 30px;
+    font-size: 50px;
 }
 header{
-    font-size: 30px;
-    height: 70px;
+    font-size: 50px;
+    height: 100px;
     width:330% ;
 }
 hr{
     width: 330%;
 }
 
+#alva{
+    justify-content: center;
+    margin-left: 100%;
+    font-size: 90px
+}
+.ulcd{
+    display: flex;
+    justify-content: left;
+    font-size: 50px;
+}
+.foto{
+    margin-left: 35px;
+    width: 200px;
+}
+.prin{
+    font-size: 40px;
+    height: 100px;
+    width: 330% ;
 }
 
+.exp{
     
+        font-size: 40px;
+        height: 100px;
+        width: 330% ;
+    
+}
+.trabajo>h2{
+    font-size: 80px;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;;
+}
+.trabajo>ul{
+    font-size: 60px;
+    font-family:'Montserrat', sans-serif;;
+    margin-left: 60px;
+}
+.exp{
+    height: 70px;
+    font-size: 30px;
+    width: 200%;
+    margin-left: 0%;
+}
+.article{
+    font-size: 100px;
+    margin-left: 60%;
+}
+.h2c{
+    font-size: 100px;
+}
+.mail{
+    font-size: 70px;
+}
+
+}
 
