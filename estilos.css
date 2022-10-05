@@ -5,6 +5,9 @@ body{
     margin: 0px;
     background-color:#FA7070;
 }
+hr{
+    width: 102%;
+}
 .datos{ 
     font-size: 36px;
     font-family: 'Nunito', sans-serif;
@@ -65,6 +68,7 @@ span{
 .pie{
     background-color: white;
     text-align: end;
+    width: 102%;
 }
 .menu2{
     font-family: 'Barlow', sans-serif;
@@ -98,6 +102,9 @@ span{
 .trabajo>ul{
     font-size: 25px;
     font-family:'Montserrat', sans-serif;;
+}
+header{
+    width: 102%;
 }
 @media screen and (max-width:1024px) and (min-width:800px){
     .carnet{
