@@ -100,16 +100,30 @@ span{
     font-family:'Montserrat', sans-serif;;
 }
 @media screen and (max-width:1024px) and (min-width:800px){
-    
+    .carnet{
+        width: 130px;
+    }
+    .ulc{
+        display: flex;
+        justify-content: end;
+    }
 }
 @media screen and (max-width:800px) and (min-width:480px){
     .datos{
-        font-size: 20px; 
+        font-size: 50px; 
     }
  .carnet{
-    width: 70px;
-    margin-top: 20px;
+    width: 200px;
+}
+.ulc{
+    display: flex;
+    justify-content: center;
 }
 }
 @media screen and (max-width:480px){
-}
+    }
+
+ 
+    
+
+
