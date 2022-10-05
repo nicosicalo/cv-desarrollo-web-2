@@ -101,28 +101,54 @@ span{
 }
 @media screen and (max-width:1024px) and (min-width:800px){
     .carnet{
-        width: 130px;
+        width: 180px;
     }
     .ulc{
         display: flex;
-        justify-content: center;
+        justify-content: right;
+    }
+    hr{
+        width: 135%;
+    }
+    .pie{
+        width: 135%;
+    }
+    .datos{
+        font-size: 45px;
     }
 }
 @media screen and (max-width:800px) and (min-width:480px){
     .datos{
-        font-size: 300%; 
+        font-size: 70px; 
+        margin-left: 50px;
+        padding-bottom: 15px;
     }
  .carnet{
-    width: 12%;
+    width: 250px;
+    margin-left: 50px;
+   
+}
+hr{
+    width: 280%;
 }
 .ulc{
     display: flex;
-    justify-content: center;
+    justify-content: end;
+}
+.pie{
+    width: 280%;
+    height: 40px;
+    font-size: 30px;
+}
+header{
+    height: 70px;
+    font-size: 30px;
+    width: 280%;
 }
 }
 @media screen and (max-width:480px){.ulc{
     display: flex;
-    justify-content: right;
+    justify-content: end;
 }
 .datos{
     font-size: 100px; 
@@ -139,6 +165,10 @@ span{
 header{
     font-size: 30px;
     height: 70px;
+    width:330% ;
+}
+hr{
+    width: 330%;
 }
 
 }
