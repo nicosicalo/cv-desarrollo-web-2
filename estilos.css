@@ -40,6 +40,9 @@ header{
         text-align: center;
         line-height: normal;
     }
+.mierda{
+    font-size: 35px;
+}
 
 .prin{
     background-color: white;
@@ -93,6 +96,17 @@ a:hover{
 }
 span{
     text-decoration: underline;
+}
+.pie1{
+    background-color: #FA707;
+    text-align: end;
+    width: 100%;
+    height: 20px;
+
+}
+.list-grouplist-group-flush{
+    background-color: black;
+
 }
 .pie{
     background-color: white;
